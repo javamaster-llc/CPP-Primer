@@ -35,15 +35,26 @@ public:
 		return num;
 	}
 
-	int intToBit3(int number) {
+	auto intToBit3(int number);
+/*	{
 		int num = 0;
 		do {
 			if (number % 2)
 				num++;
 		} while (number /= 2) ;
 		return num;
-	}
+	}*/
 };
+
+auto IntToBit::intToBit3(int number) {
+	auto num = 0;
+	do {
+		if (number % 2)
+			num++;
+	} while (number /= 2) ;
+	return num;
+}
+
 
 int main() {
 
