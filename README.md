@@ -6,7 +6,7 @@
 [![](https://img.shields.io/badge/douban-%E5%B0%8F%E7%BB%84-green.svg)](http://www.douban.com/group/532124/)
 
 ### Compilers recommended
- * Windows: Visual Studio 2015+ 
+ * Windows: Visual Studio 2015+ and Mac Platform
  
  * Linux: g++ 5.0+     
 ```python
