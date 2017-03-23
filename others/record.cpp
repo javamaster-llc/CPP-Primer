@@ -9,7 +9,8 @@
 #include <vector>
 #include <string>
 
-struct record {
+class record {
+private:
    std::string name;
    int id;
 };
@@ -35,5 +36,3 @@ int main()
   std::cout << find_id(roster,"bill") << "\n";
   std::cout << find_id(roster,"ron") << "\n";
 }
-
-
