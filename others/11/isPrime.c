@@ -23,12 +23,12 @@ void isPrime1 (int p) {
 }
 
 int main() {
-	isPrime(1);
-	isPrime(2);
-	isPrime(3);
-	isPrime(4);
-	isPrime(5);
-	isPrime(11);
+	isPrime1(1);
+	isPrime1(2);
+	isPrime1(3);
+	isPrime1(4);
+	isPrime1(5);
+	isPrime1(11);
 	isPrime(22338617);
 	isPrime1(22338617);
 }
